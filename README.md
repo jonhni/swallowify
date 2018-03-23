@@ -1,4 +1,7 @@
 # swallowify 
+
+![Blazing Fast][fast-badge]
+
 Stop propagation of the current event.
 
 ## Install
@@ -20,3 +23,4 @@ const swallowPropagationClick = swallowify(eventfulFunction);
 
 ```
 
+[fast-badge]: https://img.shields.io/badge/🔥-Blazing%20Fast-red.svg?style=flat-square
