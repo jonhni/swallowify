@@ -1,6 +1,6 @@
 {
   "name": "swallowify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stop propagation of the current event",
   "main": "index.js",
   "typings": "index.d.ts",
