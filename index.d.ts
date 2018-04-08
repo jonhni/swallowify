@@ -1,4 +1,5 @@
 declare module 'swallowify' {
-	function swallowify(eventfulFunction: Function): any;
+  type EventfulFunction<A> = (event: Event) => A
+	function swallowify<A>(eventfulFunction: EventfulFunction<A>): EventfulFunction<A>;
 	export = swallowify;
 }
